@@ -1,6 +1,11 @@
-function sayHello (name) {
-    console.log(`Hello ${name}`);
-}
+// global objects
+/*
+console.log(); 
+setTimeout();
+clearInterval();
+setInterval();
+clearInterval();
+*/
 
-// sayHello('Maaz');
-console.log(window);
+let message = '';
+console.log(global.message); //undefined
