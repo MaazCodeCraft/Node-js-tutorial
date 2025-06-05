@@ -1,18 +1,5 @@
-/*
-// global objects
-console.log(); 
-setTimeout();
-clearInterval();
-setInterval();
-clearInterval();
+const log = require('./logger');
 
-let message = '';
-console.log(global.message); //undefined
-*/
+console.log(log);
 
-let sayHello = function () {
-
-}
-
-// window.sayHello();
-console.log(module);
+log('Hello');
