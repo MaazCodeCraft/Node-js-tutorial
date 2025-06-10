@@ -1,5 +1,15 @@
-const log = require('./logger');
+const path = require ('path');
+let pathObj = path.parse(__filename);
 
-console.log(log);
+console.log(pathObj);
 
-log('Hello');
+// output
+/*
+{
+  root: 'C:\\',
+  dir: 'C:\\Users\\Aboo Maaz\\Desktop\\Node js',
+  base: 'app.js',
+  ext: '.js',
+  name: 'app'
+}
+  */
