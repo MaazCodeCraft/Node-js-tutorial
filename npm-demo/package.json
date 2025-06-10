@@ -13,5 +13,8 @@
     "figlet": "^1.8.1",
     "mongoose": "^8.15.1",
     "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.6"
   }
 }
