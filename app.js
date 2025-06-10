@@ -1,15 +1,7 @@
-const path = require ('path');
-let pathObj = path.parse(__filename);
+const os = require ('os');
 
-console.log(pathObj);
+let totalMemory = os.totalmem();
+let freeMemory = os.freemem();
 
-// output
-/*
-{
-  root: 'C:\\',
-  dir: 'C:\\Users\\Aboo Maaz\\Desktop\\Node js',
-  base: 'app.js',
-  ext: '.js',
-  name: 'app'
-}
-  */
+console.log(`Total Memory: ${totalMemory}`);
+console.log(`Free Memory: ${freeMemory}`);
